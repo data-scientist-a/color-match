@@ -4,10 +4,7 @@ const buttons = document.querySelectorAll('.color-btn');
 
 buttons.forEach(button => {
   button.addEventListener('click', function() {
-    button.addEventListener('click', function() {
-      alert("You clicked a button!");
-    })
     const targetColor = this.getAttribute('data-color');
-    colorBox.style.backroundColor = targetColor;
+    colorBox.style.backgroundColor = targetColor;
   });
 });
