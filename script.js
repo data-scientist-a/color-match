@@ -1,4 +1,4 @@
-alert("Hello! The javascript file is working!");
+
 const colorBox = document.getElementById('colorBox');
 const buttons = document.querySelectorAll('.color-btn');
 
