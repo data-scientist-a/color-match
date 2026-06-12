@@ -1,0 +1,17 @@
+#colorBox {
+  width: 300px;
+  height: 200px:
+  margin: 20px 0;
+  border: 2px solid #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eeeeee;
+  transition: background-color 0.3s ease;
+}
+button {
+  padding: 10px 15px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-size:16px;
+}
